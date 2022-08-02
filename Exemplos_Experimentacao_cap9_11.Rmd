@@ -27,11 +27,10 @@ H~0~: As épocas e as variedades não agem conjuntamente sobre a produção da c
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/epsg5181ad6xxs6/exemplo9_2.csv?dl=0`)  
 
 Carregar os dados a partir do link.
 ```{r}
-dados9_2 = read.csv("https://www.dropbox.com/s/epsg5181ad6xxs6/exemplo9_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados9_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo9_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados9_2, 8) # exibir as 8 primeiras linhas para conferir
 ```
   
@@ -111,11 +110,10 @@ Os dados obtidos do teor de potássio no solo (K) são apresentados no quadro a 
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/89jyx2rdv6hy3jn/exemplo11_2.csv?dl=0`)  
 
 Carregar os dados a partir do link.
 ```{r}
-dados11_2 = read.csv("https://www.dropbox.com/s/89jyx2rdv6hy3jn/exemplo11_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados11_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo11_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados11_2) # exibir as primeiras linhas para conferir
 ```
 

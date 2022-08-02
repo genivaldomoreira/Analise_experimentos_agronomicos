@@ -699,13 +699,11 @@ número de ovos de <em>Spodoptera frugiperda</em>.</p>
 <p>Se você baixou o banco de dados deve tornar o diretório onde os
 salvou como direitório de trabalho (<code>ctrl + shift + H</code>),
 escolha o diretório e depois copie e cole o comando.<br />
-<code>setwd(&quot;D:/Rproject/exemplos_livro/Agroestat&quot;)</code><br />
+<code>setwd(&quot;caminho do diretório&quot;)</code><br />
 Em seguida executar o comando para carregar os dados.
 <code>dados4_6_2 = read.csv(&quot;exemplo4_6_2&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)</code></p>
-<p>Como opção, pode baixar o arquivo:
-(<code>https://www.dropbox.com/s/biscf8tbms7981e/exemplo4_6_2.csv?dl=0</code>)</p>
 <p>Carregar os dados a partir do link.</p>
-<pre class="r"><code>dados4_6_2 = read.csv(&quot;https://www.dropbox.com/s/biscf8tbms7981e/exemplo4_6_2.csv?dl=1&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
+<pre class="r"><code>dados4_6_2 = read.csv(&quot;https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo4_6_2.csv&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
 head(dados4_6_2, 10) # exibir as 10 primeiras linhas para conferir</code></pre>
 <pre><code>##    cultivares  rep quant
 ## 1        IAC5 rep1  1437
@@ -883,10 +881,8 @@ H<sub>A</sub>: Os inseticidas testados possuem efeitos diferentes sobre
 a produção de vagens da cultura do amendoim.</p>
 <div id="carregar-os-dados-1" class="section level3">
 <h3>Carregar os dados</h3>
-<p>Caso deseje baixar o arquivo:
-(<code>https://www.dropbox.com/s/d47ywhef55g0zqz/exemplo5_5.csv?dl=0</code>)</p>
 <p>Carregar os dados a partir do link.</p>
-<pre class="r"><code>dados5_5 = read.csv(&quot;https://www.dropbox.com/s/d47ywhef55g0zqz/exemplo5_5.csv?dl=1&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
+<pre class="r"><code>dados5_5 = read.csv(&quot;https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_5.csv&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
 head(dados5_5) # exibir as 6 primeiras linhas para conferir</code></pre>
 <pre><code>##       tratamento  bloco producao
 ## 1       aldicarb bloco1  1469.14
@@ -1059,9 +1055,8 @@ H<sub>0</sub>: Os inseticidas testados possuem efeitos semelhantes sobre
 a produção de vagens da cultura do amendoim.<br />
 H<sub>A</sub>: Os inseticidas testados possuem efeitos diferentes sobre
 a produção de vagens da cultura do amendoim.</p>
-<p>Caso deseje baixar o arquivo: (<a href="https://www.dropbox.com/s/gny73d4jcnawjm0/exemplo5_6_8.csv?dl=0" class="uri">https://www.dropbox.com/s/gny73d4jcnawjm0/exemplo5_6_8.csv?dl=0</a>)</p>
 <p>Carregar os dados a partir do link.</p>
-<pre class="r"><code>dados5_6_8 = read.csv(&quot;https://www.dropbox.com/s/gny73d4jcnawjm0/exemplo5_6_8.csv?dl=1&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
+<pre class="r"><code>dados5_6_8 = read.csv(&quot;https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_6_8.csv&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
 head(dados5_6_8) # exibir as 6 primeiras linhas para conferir</code></pre>
 <pre><code>##       tratamento  bloco producao
 ## 1       aldicarb bloco1  1469.14
@@ -1159,9 +1154,8 @@ nas sementes.<br />
 H<sub>A</sub>: As cultivares de sorgo testadas diferem entre si em
 relação à porcentagem de incidência de <em>Alternaria tenuis</em> sp.
 nas sementes.</p>
-<p>Caso deseje baixar o arquivo: (<a href="https://www.dropbox.com/s/wumc9jztynolpiw/exemplo5_8_6.csv?dl=0" class="uri">https://www.dropbox.com/s/wumc9jztynolpiw/exemplo5_8_6.csv?dl=0</a>)</p>
 <p>Carregar os dados a partir do link.</p>
-<pre class="r"><code>dados5_8_6 = read.csv(&quot;https://www.dropbox.com/s/wumc9jztynolpiw/exemplo5_8_6.csv?dl=1&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
+<pre class="r"><code>dados5_8_6 = read.csv(&quot;https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_8_6.csv&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
 head(dados5_8_6, 10) # exibir as 10 primeiras linhas para conferir</code></pre>
 <pre><code>##    cultivares  bloco incidencia
 ## 1     Brandes bloco1      34.45
@@ -1303,9 +1297,8 @@ mamoeiro.<br />
 H<sub>A</sub>: Os métodos de semeadura testados possuem efeitos
 diferentes sobre a porcentagem média de pegamento das mudas do
 mamoeiro.</p>
-<p>Caso deseje baixar o arquivo: (<a href="https://www.dropbox.com/s/75msll06js7h3qc/exemplo5_9_2.csv?dl=0" class="uri">https://www.dropbox.com/s/75msll06js7h3qc/exemplo5_9_2.csv?dl=0</a>)</p>
 <p>Carregar os dados a partir do link.</p>
-<pre class="r"><code>dados5_9_2 = read.csv(&quot;https://www.dropbox.com/s/75msll06js7h3qc/exemplo5_9_2.csv?dl=1&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
+<pre class="r"><code>dados5_9_2 = read.csv(&quot;https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_9_2.csv&quot;, header = TRUE, sep = &quot;;&quot;, dec = &quot;.&quot;)
 head(dados5_9_2, 10) # exibir as 10 primeiras linhas para conferir</code></pre>
 <pre><code>##    tratamento  bloco pegamento
 ## 1       tratA bloco1     33.21

@@ -27,11 +27,9 @@ H~0~: Os inseticidas e as dosagens não agem conjuntamente sobre a produção da
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/743zhimn68jea00/exemplo6_4.csv?dl=0`)  
-
 Carregar os dados a partir do link.
 ```{r}
-dados6_4 = read.csv("https://www.dropbox.com/s/743zhimn68jea00/exemplo6_4.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados6_4 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo6_4.csv", header = TRUE, sep = ";", dec = ".")
 head(dados6_4, 8) # exibir as 8 primeiras linhas para conferir
 ```
   
@@ -135,11 +133,9 @@ H~0~: Os espaçamentos e as densidades não agem conjuntamente sobre a produçã
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/r3ipoaysx8iy2pu/exemplo6_7.csv?dl=0`)  
-
 Carregar os dados a partir do link.
 ```{r}
-dados6_7 = read.csv("https://www.dropbox.com/s/r3ipoaysx8iy2pu/exemplo6_7.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados6_7 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo6_7.csv", header = TRUE, sep = ";", dec = ".")
 head(dados6_7, 8) # exibir as 8 primeiras linhas para conferir
 ```
 
@@ -254,11 +250,9 @@ OBS: Considerando que os experimentos com 33 fatores produzem extensa discussão
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/agzg7vf0jsih4rj/exemplo7_2.csv?dl=0`)  
-
 Carregar os dados a partir do link.
 ```{r}
-dados7_2 = read.csv("https://www.dropbox.com/s/agzg7vf0jsih4rj/exemplo7_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados7_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo7_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados7_2, 10) # exibir as 10 primeiras linhas para conferir
 ```
 
@@ -300,11 +294,9 @@ OBS: Da mesma forma do exemplo anterior, apresentaremos apenas o script para a r
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/xinp5up8xuhs3ic/exemplo8_2.csv?dl=0`)  
-
 Carregar os dados a partir do link.
 ```{r}
-dados8_2 = read.csv("https://www.dropbox.com/s/xinp5up8xuhs3ic/exemplo8_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados8_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo8_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados8_2, 10) # exibir as 10 primeiras linhas para conferir
 ```
 

@@ -198,15 +198,13 @@ H~A~: As cultivares de amendoim diferem entre si, quanto o número de ovos de *S
 
 ### Carregar os dados  
 Se você baixou o banco de dados deve tornar o diretório onde os salvou como direitório de trabalho (`ctrl + shift + H`), escolha o diretório e depois copie e cole o comando.  
-`setwd("D:/Rproject/exemplos_livro/Agroestat")`  
+`setwd("caminho do diretório")`  
 Em seguida executar o comando para carregar os dados.
 `dados4_6_2 = read.csv("exemplo4_6_2", header = TRUE, sep = ";", dec = ".")`  
 
-Como opção, pode baixar o arquivo:   (`https://www.dropbox.com/s/biscf8tbms7981e/exemplo4_6_2.csv?dl=0`)  
-
 Carregar os dados a partir do link.
 ```{r}
-dados4_6_2 = read.csv("https://www.dropbox.com/s/biscf8tbms7981e/exemplo4_6_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados4_6_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo4_6_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados4_6_2, 10) # exibir as 10 primeiras linhas para conferir
 ```
 Caso deseje visualizar o banco de dados completo, basta usar o comando `dados4_6_2`.  
@@ -283,11 +281,9 @@ H~A~: Os inseticidas testados possuem efeitos diferentes sobre a produção de v
 
 ### Carregar os dados  
 
-Caso deseje baixar o arquivo:   (`https://www.dropbox.com/s/d47ywhef55g0zqz/exemplo5_5.csv?dl=0`)  
-
 Carregar os dados a partir do link.
 ```{r}
-dados5_5 = read.csv("https://www.dropbox.com/s/d47ywhef55g0zqz/exemplo5_5.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados5_5 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_5.csv", header = TRUE, sep = ";", dec = ".")
 head(dados5_5) # exibir as 6 primeiras linhas para conferir
 ```
 Caso deseje visualizar o banco de dados completo, basta usar o comando `dados5_5`.  
@@ -359,11 +355,9 @@ As hipóteses a serem testadas são:
 H~0~: Os inseticidas testados possuem efeitos semelhantes sobre a produção de vagens da cultura do amendoim.  
 H~A~: Os inseticidas testados possuem efeitos diferentes sobre a produção de vagens da cultura do amendoim. 
 
-Caso deseje baixar o arquivo: (https://www.dropbox.com/s/gny73d4jcnawjm0/exemplo5_6_8.csv?dl=0) 
-
 Carregar os dados a partir do link.
 ```{r}
-dados5_6_8 = read.csv("https://www.dropbox.com/s/gny73d4jcnawjm0/exemplo5_6_8.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados5_6_8 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_6_8.csv", header = TRUE, sep = ";", dec = ".")
 head(dados5_6_8) # exibir as 6 primeiras linhas para conferir
 ```
 
@@ -429,12 +423,9 @@ H~0~: As cultivares de sorgo testadas não diferem entre si em relação à porc
 H~A~: As cultivares de sorgo testadas diferem entre si em relação à porcentagem de incidência de *Alternaria tenuis* sp. nas sementes.  
 
 
-
-Caso deseje baixar o arquivo: (https://www.dropbox.com/s/wumc9jztynolpiw/exemplo5_8_6.csv?dl=0) 
-
 Carregar os dados a partir do link.
 ```{r}
-dados5_8_6 = read.csv("https://www.dropbox.com/s/wumc9jztynolpiw/exemplo5_8_6.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados5_8_6 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_8_6.csv", header = TRUE, sep = ";", dec = ".")
 head(dados5_8_6, 10) # exibir as 10 primeiras linhas para conferir
 ```
 
@@ -497,12 +488,9 @@ As hipóteses a serem testadas são:
 H~0~: Os métodos de semeadura testados possuem efeitos semelhantes sobre a porcentagem média de pegamento das mudas do mamoeiro.    
 H~A~: Os métodos de semeadura testados possuem efeitos diferentes sobre a porcentagem média de pegamento das mudas do mamoeiro.  
 
-
-Caso deseje baixar o arquivo: (https://www.dropbox.com/s/75msll06js7h3qc/exemplo5_9_2.csv?dl=0) 
-
 Carregar os dados a partir do link.
 ```{r}
-dados5_9_2 = read.csv("https://www.dropbox.com/s/75msll06js7h3qc/exemplo5_9_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados5_9_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo5_9_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados5_9_2, 10) # exibir as 10 primeiras linhas para conferir
 ```
 

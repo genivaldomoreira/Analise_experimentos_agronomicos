@@ -21,11 +21,10 @@ Nos 4 experimentos estudaram-se os efeitos de 5 tratamentos (Transplantio de alf
 
 ### Carregar os dados  
 
-Para baixar o arquivo:   (`https://www.dropbox.com/s/u70ggbn17cdmht5/exemplo12_2.csv?dl=0`)  
 
 Carregar os dados a partir do link.
 ```{r}
-dados12_2 = read.csv("https://www.dropbox.com/s/u70ggbn17cdmht5/exemplo12_2.csv?dl=1", header = TRUE, sep = ";", dec = ".")
+dados12_2 = read.csv("https://raw.githubusercontent.com/genivaldomoreira/Analise_experimentos_agronomicos/main/Dados/exemplo12_2.csv", header = TRUE, sep = ";", dec = ".")
 head(dados12_2) # exibir as primeiras linhas para conferir
 ```
   
